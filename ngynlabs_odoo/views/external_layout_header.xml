@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<openerp>
+  <data>
+    <template id="report.external_layout_header">
+      <div class="header">
+        <div class="row">
+          <div class="col-xs-9 text-right" style="margin-top:20px;" t-field="company.rml_header1"/>
+        </div>
+        <div class="row">
+          <div class="col-xs-8">
+            <div t-field="company.partner_id" t-field-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;, &quot;phone&quot;], &quot;no_marker&quot;: true}" class="pull-left"/>
+          </div>
+          <div class="col-xs-3 text-right">
+            <img t-if="company.logo" t-att-src="'data:image/png;base64,%s' % company.logo" style="max-height: 45px;"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-5">
+            <strong>SIRET :</strong> <span t-field="company.siret"/><br/>
+            <strong>TVA :</strong> <span t-field="company.vat"/><br/>
+            <t t-foreach="company.bank_ids" t-as="bank_id">
+              <strong>IBAN :</strong> <span t-field="bank_id.acc_number"/>
+            </t> 
+          </div>
+        </div>
+      </div>
+    </template>
+  </data>
+</openerp>

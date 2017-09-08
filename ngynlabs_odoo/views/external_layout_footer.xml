@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<openerp>
+  <data>
+    <template id="report.external_layout_footer">
+      <div class="footer">
+        <div class="row text-muted">
+          <div class="col-xs-8">
+            <span t-field="company.name"/> 
+            <t t-if="company.custom_footer">
+              - <span t-raw="company.rml_footer"/>
+            </t>
+          </div>
+          <div class="col-xs-4 text-right">
+            Page <span class="page"/> / <span class="topage"/>
+          </div>
+        </div>
+      </div>      
+    </template>
+  </data>
+</openerp>
