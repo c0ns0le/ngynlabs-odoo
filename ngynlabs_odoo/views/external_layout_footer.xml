@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-
 <openerp>
   <data>
     <template id="report.external_layout_footer">
