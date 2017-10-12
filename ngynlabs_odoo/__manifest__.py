@@ -1,7 +1,7 @@
 {
     'name': 'Ngynlabs document templates',
     'category': 'Tools',
-    'version': '8.0.1.0.0',
+    'version': '10.0.1.0.0',
     'description': """
 Ngynlabs documents
 ==================
