@@ -9,6 +9,8 @@
             <t t-if="company.custom_footer">
               - <span t-raw="company.rml_footer"/>
             </t>
+            <ul t-if="not company.custom_footer" class="list-inline" name="financial_infos">
+            </ul>
           </div>
           <div class="col-xs-4 text-right">
             Page <span class="page"/> / <span class="topage"/>
