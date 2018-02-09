@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <odoo>
-  <data>
-    <template id="report.external_layout_footer">
+  <template id="external_layout_footer" inherit_id="report.external_layout_footer">
+    <xpath expr="//div[@class='footer']" position="replace">
+      <hr/>
       <div class="footer">
         <div class="row text-muted">
           <div class="col-xs-8">
@@ -16,7 +17,7 @@
             Page <span class="page"/> / <span class="topage"/>
           </div>
         </div>
-      </div>      
-    </template>
-  </data>
+      </div>
+    </xpath>
+  </template>
 </odoo>
