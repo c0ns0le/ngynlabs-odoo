@@ -1,0 +1,79 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* ngynlabs_odoo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-09 15:48+0000\n"
+"PO-Revision-Date: 2018-02-09 15:48+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.external_layout_header
+msgid "<br/>\n"
+"            <strong>TIN:</strong>"
+msgstr "<br/>\n"
+"            <strong>TVA :</strong>"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.external_layout_header
+msgid "<strong>IBAN:</strong>"
+msgstr "<strong>IBAN :</strong>"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.report_invoice_document
+msgid "<strong>In accordance with article L 441-6 of the Commercial Code:</strong>"
+msgstr "<strong>En conformité de l’article L 441-6 du Code de commerce :</strong>"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.external_layout_header
+msgid "<strong>SIRET:</strong>"
+msgstr "<strong>SIRET :</strong>"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.report_invoice_document
+msgid "<strong>Shipping address:</strong>"
+msgstr "<strong>Adresse de livraison :</strong>"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.report_invoice_document
+msgid "Failure to comply with the payment date will give rise, as a late payment penalty, to the application of a benefit equal to the one applied by the European Central Bank during its most recent refinancing operation, plus 10 percentage points, as well as a lump-sum compensation for recovery costs of EUR 40"
+msgstr "Tout réglement effectué après expiration de ce délai donnera lieu, à titre de pénalité de retard, à l’application d’un intérêt égal à celui appliqué par la Banque Centrale Européenne à son opération de refinancement la plus récente, majoré de 10 points de pourcentage, ainsi qu'à une indemnité forfaitaire pour frais de recouvrement d'un montant de 40 euros"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.report_invoice_document
+msgid "Invoicing address:"
+msgstr "Adresse de facturation :"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.report_invoice_document
+msgid "Invoicing and shipping address:"
+msgstr "Adresse de facturation et de livraison :"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.report_invoice_document
+msgid "Late penalties are due without a recall being required"
+msgstr "Les pénalités de retard sont exigibles sans qu’un rappel soit nécessaire."
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.report_invoice_document
+msgid "No discount for prepayment"
+msgstr "Pas d'escompte pour paiement anticipé."
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.external_layout_footer
+msgid "Page <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Page <span class=\"page\"/> / <span class=\"topage\"/>"
+
+#. module: ngynlabs_odoo
+#: model:ir.ui.view,arch_db:ngynlabs_odoo.report_invoice_document
+msgid "TIN:"
+msgstr "TVA :"
+
