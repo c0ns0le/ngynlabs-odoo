@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="report_saleorder_document" inherit_id="sale.report_saleorder_document">
+    <xpath expr="//div[@t-field='doc.partner_invoice_id']/parent::div" position="attributes">
+      <attribute name="class">col-xs-6 pull-right</attribute>
+    </xpath>
+    <xpath expr="//div[@t-field='doc.partner_id']/parent::div" position="replace"/>
+  </template>
+</odoo>
